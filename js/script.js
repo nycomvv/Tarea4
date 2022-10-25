@@ -1,0 +1,20 @@
+// Funcion Suma Notas
+function suma (n1, n2, n3, n4, n5, n6) {
+    const suma = n1+n2+n3+n4+n5+n6
+    return suma
+}
+const ResultadoSuma = suma(6 , 8 , 9 ,2 , 5, 10)
+
+// Funcion Promedio 
+
+function promedio (ResultadoSuma) {
+    const promedio = ResultadoSuma / 6
+    return promedio
+}
+const Promedio = promedio(ResultadoSuma)
+
+console.log("Suma de Notas : ", ResultadoSuma)
+
+console.log("Promedio de Notas: ", Promedio)
+
+
