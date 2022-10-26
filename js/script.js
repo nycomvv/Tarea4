@@ -10,9 +10,9 @@ document.write("<br>");
 document.write("ALUMNO : " + alumno.nombre + " " + alumno.Apellido);
 document.write("<br><br>");
 //document.write("Notas : " + alumno.Nota);
-document.write("NOTAS : N1 : " + alumno.misNotas[0]+ " , N2 : " + alumno.misNotas[1]+
-" , N3 : " + alumno.misNotas[2]+ " , N4 : " + alumno.misNotas[3]+ " , N5 : " +
- alumno.misNotas[4]+ " , N6 : " + alumno.misNotas[5]);
+document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+
+" , N3 -> " + alumno.misNotas[2]+ " , N4 -> " + alumno.misNotas[3]+ " , N5 -> " +
+ alumno.misNotas[4]+ " , N6 -> " + alumno.misNotas[5]);
 
 // Funcion Suma Notas
 function suma (n1, n2, n3, n4, n5, n6) {
