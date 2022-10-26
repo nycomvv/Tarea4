@@ -12,7 +12,7 @@ function promedio (ResultadoSuma) {
     return promedio
 }
 const Promedio = promedio(ResultadoSuma)
-
+document.write("<br>");
 document.write("Las Notas Son : 6 , 8 , 9 , 2 , 5 , 10 ")
 document.write("<br>");
 document.write("La Suma es: " + ResultadoSuma);
