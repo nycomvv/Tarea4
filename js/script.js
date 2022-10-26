@@ -7,10 +7,10 @@ const alumno = {
 }
 
 document.write("<br>");
-document.write(alumno.nombre + " " + alumno.Apellido);
+document.write("ALUMNO : " + alumno.nombre + " " + alumno.Apellido);
 document.write("<br>");
 //document.write("Notas : " + alumno.Nota);
-document.write("Notas : " + alumno.misNotas);
+document.write("NOTAS : " + alumno.misNotas);
 // Funcion Suma Notas
 function suma (n1, n2, n3, n4, n5, n6) {
     const suma = n1+n2+n3+n4+n5+n6
@@ -28,9 +28,9 @@ const Promedio = promedio(ResultadoSuma)
 document.write("<br>");
 //document.write("Las Notas Son : 6 , 8 , 9 , 2 , 5 , 10");
 document.write("<br>");
-document.write("La Suma es: " + ResultadoSuma);
+document.write("SUMA: " + ResultadoSuma);
 document.write("<br>");
-document.write("El Promedio es : " + Promedio);
+document.write("PROMEDIO : " + Promedio);
 
 console.log("Suma de Notas : ", ResultadoSuma)
 // alert(ResultadoSuma)
