@@ -1,13 +1,16 @@
 // Objeto Alumnos
 const alumno = {
     nombre : "Marcelo",
-    Apellido : "Vasquez",
+    apellido : "Vasquez",
     //Nota : 6,
     misNotas : [6,8 , 9 ,2 , 5, 10],
 }
 
-document.write("<br>");
-document.write("ALUMNO : " + alumno.nombre + " " + alumno.Apellido);
+const nombre = alumno.nombre;
+
+
+document.write("<br><br>");
+document.write("ALUMNO : " + alumno.nombre + " " + alumno.apellido);
 document.write("<br><br>");
 //document.write("Notas : " + alumno.Nota);
 document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+

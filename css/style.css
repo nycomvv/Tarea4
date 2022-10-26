@@ -1,0 +1,15 @@
+body {
+  background-color: #691a1a;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  background-color: #f1f1f1;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.7);
+}
+
+/*# sourceMappingURL=style.css.map */
