@@ -18,6 +18,11 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    &__title {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
     &__text {
         text-align: center;
         font-weight: bold;

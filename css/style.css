@@ -18,6 +18,10 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container__title {
+  font-size: 30px;
+  text-decoration: underline;
+}
 .container__text {
   text-align: center;
   font-weight: bold;
