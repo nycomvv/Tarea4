@@ -2,7 +2,6 @@
 const alumno = {
     nombre : "Marcelo",
     apellido : "Vásquez",
-    //Nota : 6,
     misNotas : [6,8 , 9 ,2 , 5, 10],
 }
 
@@ -12,9 +11,6 @@ const nombre = alumno.nombre;
 document.write("<br><br>");
 document.write("<strong>ALUMNO : </strong> " + alumno.nombre + " " + alumno.apellido);
 document.write("<br><br>");
-/*document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+
-" , N3 -> " + alumno.misNotas[2]+ " , N4 -> " + alumno.misNotas[3]+ " , N5 -> " +
- alumno.misNotas[4]+ " , N6 -> " + alumno.misNotas[5]);*/
 document.write("<strong>NOTAS : </strong>" + alumno.misNotas[0] + " , " + alumno.misNotas[1]+
 " , " + alumno.misNotas[2]+ " , " + alumno.misNotas[3]+ " , " +
  alumno.misNotas[4]+ " , " + alumno.misNotas[5]);
