@@ -20,6 +20,7 @@ body {
 }
 .container__text {
   text-align: center;
+  font-weight: bold;
   font-size: 20px;
   background-color: white;
   border-radius: 25%;
@@ -27,6 +28,7 @@ body {
 }
 .container__text1 {
   text-align: center;
+  font-weight: bold;
   font-size: 30px;
   text-decoration: underline overline;
   border-radius: 20%;
