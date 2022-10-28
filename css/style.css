@@ -22,11 +22,14 @@ body {
   text-align: center;
   font-size: 20px;
   background-color: white;
+  border-radius: 25%;
   color: blue;
 }
 .container__text1 {
+  text-align: center;
   font-size: 30px;
   text-decoration: underline overline;
+  border-radius: 20%;
   color: green;
 }
 

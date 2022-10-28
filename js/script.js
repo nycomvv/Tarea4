@@ -1,7 +1,7 @@
 // Objeto Alumnos
 const alumno = {
     nombre : "Marcelo",
-    apellido : "Vasquez",
+    apellido : "Vásquez",
     //Nota : 6,
     misNotas : [6,8 , 9 ,2 , 5, 10],
 }
@@ -35,9 +35,9 @@ function promedio (ResultadoSuma) {
 const Promedio = promedio(ResultadoSuma)
 document.write("<br>");
 document.write("<br>");
-document.write("<p class=\"container__text\">SUMA: " + ResultadoSuma+ "</p>");
+document.write("<p class=\"container__text\">SUMA = " + ResultadoSuma+ "</p>");
 document.write("<br><br>");
-document.write("<p class=\"container__text1\"><i>PROMEDIO : " + Promedio +"</i></p>");
+document.write("<p class=\"container__text1\">PROMEDIO = " + Promedio +"</p>");
 
 console.log("Suma de Notas : ", ResultadoSuma)
 // alert(ResultadoSuma)
