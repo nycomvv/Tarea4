@@ -12,9 +12,12 @@ const nombre = alumno.nombre;
 document.write("<br><br>");
 document.write("ALUMNO : " + alumno.nombre + " " + alumno.apellido);
 document.write("<br><br>");
-document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+
+/*document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+
 " , N3 -> " + alumno.misNotas[2]+ " , N4 -> " + alumno.misNotas[3]+ " , N5 -> " +
- alumno.misNotas[4]+ " , N6 -> " + alumno.misNotas[5]);
+ alumno.misNotas[4]+ " , N6 -> " + alumno.misNotas[5]);*/
+document.write("NOTAS : " + alumno.misNotas[0] + " , " + alumno.misNotas[1]+
+" , " + alumno.misNotas[2]+ " , " + alumno.misNotas[3]+ " , " +
+ alumno.misNotas[4]+ " , " + alumno.misNotas[5]);
 
 // Funcion Suma Notas
 function suma (n1, n2, n3, n4, n5, n6) {
@@ -32,9 +35,9 @@ function promedio (ResultadoSuma) {
 const Promedio = promedio(ResultadoSuma)
 document.write("<br>");
 document.write("<br>");
-document.write("SUMA: " + ResultadoSuma);
+document.write("<p class=\"container__text\"><i>SUMA: " + ResultadoSuma+ "</i></p>");
 document.write("<br><br>");
-document.write("PROMEDIO : " + Promedio);
+document.write("<p class=\"container__text1\"><i>PROMEDIO : " + Promedio +"</i></p>");
 
 console.log("Suma de Notas : ", ResultadoSuma)
 // alert(ResultadoSuma)

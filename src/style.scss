@@ -17,4 +17,11 @@ body {
     align-items: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    &__text {
+        color: green;
+    }
+    &__text1 {
+        font-size: 30px;
+        color: green;
+    }
 }

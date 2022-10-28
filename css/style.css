@@ -18,5 +18,12 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container__text {
+  color: green;
+}
+.container__text1 {
+  font-size: 30px;
+  color: green;
+}
 
 /*# sourceMappingURL=style.css.map */
