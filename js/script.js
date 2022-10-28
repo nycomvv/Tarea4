@@ -35,7 +35,7 @@ function promedio (ResultadoSuma) {
 const Promedio = promedio(ResultadoSuma)
 document.write("<br>");
 document.write("<br>");
-document.write("<p class=\"container__text\"><i>SUMA: " + ResultadoSuma+ "</i></p>");
+document.write("<p class=\"container__text\">SUMA: " + ResultadoSuma+ "</p>");
 document.write("<br><br>");
 document.write("<p class=\"container__text1\"><i>PROMEDIO : " + Promedio +"</i></p>");
 

@@ -19,10 +19,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container__text {
-  color: green;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
 }
 .container__text1 {
   font-size: 30px;
+  text-decoration: underline overline;
   color: green;
 }
 
