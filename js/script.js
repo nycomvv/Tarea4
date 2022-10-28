@@ -12,7 +12,6 @@ const nombre = alumno.nombre;
 document.write("<br><br>");
 document.write("ALUMNO : " + alumno.nombre + " " + alumno.apellido);
 document.write("<br><br>");
-//document.write("Notas : " + alumno.Nota);
 document.write("NOTAS : N1 -> " + alumno.misNotas[0]+ " , N2 -> " + alumno.misNotas[1]+
 " , N3 -> " + alumno.misNotas[2]+ " , N4 -> " + alumno.misNotas[3]+ " , N5 -> " +
  alumno.misNotas[4]+ " , N6 -> " + alumno.misNotas[5]);
@@ -28,11 +27,10 @@ const ResultadoSuma = suma(6 , 8 , 9 ,2 , 5, 10)
 // Funcion Promedio 
 function promedio (ResultadoSuma) {
     const promedio = ResultadoSuma / 6
-    return promedio
+    return promedio.toFixed(1)
 }
 const Promedio = promedio(ResultadoSuma)
 document.write("<br>");
-//document.write("Las Notas Son : 6 , 8 , 9 , 2 , 5 , 10");
 document.write("<br>");
 document.write("SUMA: " + ResultadoSuma);
 document.write("<br><br>");
